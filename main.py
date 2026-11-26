@@ -13,10 +13,7 @@ the exact mishearing before reporting the consequence.
 import os
 import sys
 
-LINE = (
-    "Sorry, I heard 'order a pizza' as 'order a priest' \u2014 he's here, "
-    "he's confused, and he brought garlic bread."
-)
+LINE = "Sorry, I heard 'order a pizza' as 'order a priest' — he's here, he's confused, and he brought garlic bread."
 
 
 def validate(text: str) -> str:
